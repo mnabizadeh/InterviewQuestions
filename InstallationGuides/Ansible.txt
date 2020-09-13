@@ -4,6 +4,8 @@
  apt-get install ansible
 
 
+ansible --version 
+
 ssh-keygen -t rsa
 
 Change the sshd_config
