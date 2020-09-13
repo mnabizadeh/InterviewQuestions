@@ -6,9 +6,13 @@
 
 ansible --version 
 
+etc/ansible/ansible.cfg #main ansible config file
+
 etc/ansible/hosts #(vi to this file to see host inventory file - when we work with config management tool we have to put in the ip address of the servers that we need to manage. You need min. of two machines a server and a slave machine. ungrouped host are they are not part of the group and are available in top and grouped host are the next section)
 
 ssh-keygen -t rsa
+
+#press enter a few times after issuing line 11, don't need to provide any values.
 
 Change the sshd_config
 
